@@ -3,17 +3,22 @@
 body {
     margin: 0;
 }
-
+.navbar {
+    .navbar-brand {
+            color: $blue-300;
+        svg {
+            height: 40px;
+            fill: $blue-300;
+        }
+    }
+}
 .App * {
     font-family: 'Roboto', sans-serif;
     
 }
 .App {
-    h1 {text-align: center;}
-    .post-create {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-flow: column;
+    h1 {
+        text-align: center;
+        margin: 30px 0;
     }
 }
