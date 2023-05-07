@@ -142,7 +142,7 @@ function cleanEditModal() {
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onClick={cleanEditModal}>Close</button>
-                <button type="button" class="btn btn-primary"  onClick={() => {
+                <button type="button" class="btn btn-primary text-light"  onClick={() => {
                   editPost(idPostEdit);
 
                   }}
